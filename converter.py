@@ -23,7 +23,7 @@ while True:
 
     choice = input("Enter choice (1/2/3/4/5): ")
 
-    if choice == '5':
+    if choice >= '5':
         print("Exiting calculator...")
         break
 
